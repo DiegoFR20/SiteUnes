@@ -1,0 +1,94 @@
+/*General*/
+html{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(25, 25, 83);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    --bg: #FCFCFC;
+    --bg-panel: #EBEBEB;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    background: var(--bg-panel);
+    width: 1000px;
+    height: 900px;
+
+    border-radius: 15px;
+}
+
+/*Header*/
+header{
+    margin-left: 50px;
+    height: 100px;
+    width: 900px;
+    color: rgb(0, 0, 70);
+    position: relative;
+}
+
+#logo{
+    height: auto;
+    width: 450px;
+    padding-top: 21.5px;
+}
+
+#menu{
+    margin-bottom: 5px;
+    background-color: var(--bg);
+    width: 300px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0; 
+    border-radius: 15px;
+    padding-right: 15px;
+}
+
+#menu a{
+    padding: 0 5px;
+    
+}
+
+#menu a:hover{
+    background-color: rgb(25, 25, 83);
+    color: var(--bg);
+}
+
+/*Content*/
+#capa{
+    margin: 0 50px;
+    height: 414px;
+    width: 900px;
+}
+
+#content{
+    background-color: var(--bg);
+    border-radius: 10px;
+    margin: 25px 50px;
+    width: 900px;
+    height: 270px;
+    text-align: center;
+}
+
+#content p:last-child{
+    margin-top: 15px;
+}
+
+#content h2,p{
+    margin: 0;
+    padding: 6px auto; 
+}
+
+/*Footer*/
+footer{
+    margin-left: 50px;
+    
+    width: 900px;
+    text-align: center;
+}
