@@ -6,7 +6,7 @@ html{
     display: grid;
     align-items: center;
     justify-items: center;
-
+    background-image: url(images/fundo2.png);
     --bg: #FCFCFC;
     --bg-panel: #EBEBEB;
 }
@@ -15,7 +15,7 @@ a{
     text-decoration: none;
 }
 
-.container{
+#container{
     background: var(--bg-panel);
     width: 1000px;
     height: 900px;
